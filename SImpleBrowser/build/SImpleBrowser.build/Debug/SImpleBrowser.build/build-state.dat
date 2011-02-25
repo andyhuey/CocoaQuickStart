@@ -1,7 +1,7 @@
 TSImpleBrowser
 v7
 r0
-t319835075.885256
+t320297618.038067
 cCheck dependencies
 cProcessInfoPlistFile /Users/andrew/src/PragProgCocoa/SImpleBrowser/build/Debug/SImpleBrowser.app/Contents/Info.plist Info.plist
 cStripNIB /Users/andrew/src/PragProgCocoa/SImpleBrowser/English.lproj/MainMenu.nib
@@ -97,7 +97,7 @@ s842
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies319835074#319835074#0(0"0(0#1#0"8602579584#0"0#
+lSLF07#2@18"Check dependencies320297617#320297618#0(0"0(0#1#0"32651513917735028#0"0#
 
 CCompileC build/SImpleBrowser.build/Debug/SImpleBrowser.build/Objects-normal/i386/main.o /Users/andrew/src/PragProgCocoa/SImpleBrowser/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s319832063.119901
