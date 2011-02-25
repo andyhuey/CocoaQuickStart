@@ -330,14 +330,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 260}}</string>
+								<string>{{0, 0}, {580, 251}}</string>
 								<key>RubberWindowFrame</key>
 								<string>246 234 788 504 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>260pt</string>
+							<string>251pt</string>
 						</dict>
 						<dict>
 							<key>BecomeActive</key>
@@ -352,14 +352,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 265}, {580, 198}}</string>
+								<string>{{0, 256}, {580, 207}}</string>
 								<key>RubberWindowFrame</key>
 								<string>246 234 788 504 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>198pt</string>
+							<string>207pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -378,9 +378,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>4997CC78131498D700C1FEDD</string>
+				<string>49D844BD13175AAD00B1F28C</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>4997CC79131498D700C1FEDD</string>
+				<string>49D844BE13175AAD00B1F28C</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -518,12 +518,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>4997CC8413149A5100C1FEDD</string>
-		<string>4997CC8513149A5100C1FEDD</string>
+		<string>49D844C813175AAD00B1F28C</string>
+		<string>49D844C913175AAD00B1F28C</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>49F4920F13104BF600688496</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/andrew/src/PragProgCocoa/SImpleBrowser2/SImpleBrowser.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>246 234 788 504 0 0 1280 778 </string>
@@ -603,7 +603,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>49F4920F13104BF600688496</string>
-				<string>4997CC7A131498D700C1FEDD</string>
+				<string>49D844BF13175AAD00B1F28C</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -647,8 +647,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 198}}</string>
-											<string>{{316, 0}, {378, 198}}</string>
+											<string>{{0, 0}, {316, 201}}</string>
+											<string>{{316, 0}, {378, 201}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -663,8 +663,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 198}}</string>
-											<string>{{0, 198}, {694, 183}}</string>
+											<string>{{0, 0}, {694, 201}}</string>
+											<string>{{0, 201}, {694, 180}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -697,7 +697,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 198}}</string>
+									<string>{{316, 0}, {378, 201}}</string>
 									<key>RubberWindowFrame</key>
 									<string>267 293 694 422 0 0 1280 778 </string>
 								</dict>
@@ -725,13 +725,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>4997CC7D13149A5100C1FEDD</string>
+				<string>49D844C013175AAD00B1F28C</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>4997CC7E13149A5100C1FEDD</string>
-				<string>4997CC7F13149A5100C1FEDD</string>
-				<string>4997CC8013149A5100C1FEDD</string>
-				<string>4997CC8113149A5100C1FEDD</string>
-				<string>4997CC8213149A5100C1FEDD</string>
+				<string>49D844C113175AAD00B1F28C</string>
+				<string>49D844C213175AAD00B1F28C</string>
+				<string>49D844C313175AAD00B1F28C</string>
+				<string>49D844C413175AAD00B1F28C</string>
+				<string>49D844C513175AAD00B1F28C</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -895,7 +895,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>4997CC8313149A5100C1FEDD</string>
+				<string>49D844C613175AAD00B1F28C</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
