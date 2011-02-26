@@ -1,0 +1,163 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* HelloWorldProAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {588, 448}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 331}";
+			sepNavWindowFrame = "{{437, 31}, {750, 719}}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* HelloWorldProAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 848}}";
+			sepNavSelRange = "{953, 0}";
+			sepNavVisRange = "{243, 993}";
+			sepNavWindowFrame = "{{15, 59}, {750, 719}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 49C7C9151319A5B5006B58C8 /* HelloWorldPro */;
+		activeTarget = 8D1107260486CEB800E47090 /* HelloWorldPro */;
+		codeSenseManager = 49C7C9231319A5D4006B58C8 /* Code sense */;
+		executables = (
+			49C7C9151319A5B5006B58C8 /* HelloWorldPro */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320447925;
+			PBXWorkspaceStateSaveDate = 320447925;
+		};
+		perUserProjectItems = {
+			49C7C9211319A5D2006B58C8 /* PBXBookmark */ = 49C7C9211319A5D2006B58C8 /* PBXBookmark */;
+			49C7C9271319AE70006B58C8 /* PBXBookmark */ = 49C7C9271319AE70006B58C8 /* PBXBookmark */;
+			49C7C94E1319B480006B58C8 /* PBXTextBookmark */ = 49C7C94E1319B480006B58C8 /* PBXTextBookmark */;
+			49C7C94F1319B480006B58C8 /* PBXTextBookmark */ = 49C7C94F1319B480006B58C8 /* PBXTextBookmark */;
+			49C7C9551319B480006B58C8 /* PBXTextBookmark */ = 49C7C9551319B480006B58C8 /* PBXTextBookmark */;
+			49C7C9581319B480006B58C8 /* PBXTextBookmark */ = 49C7C9581319B480006B58C8 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 49C7C9221319A5D4006B58C8 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	49C7C9151319A5B5006B58C8 /* HelloWorldPro */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HelloWorldPro;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	49C7C9211319A5D2006B58C8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* HelloWorldProAppDelegate.m */;
+	};
+	49C7C9221319A5D4006B58C8 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	49C7C9231319A5D4006B58C8 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	49C7C9271319AE70006B58C8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* HelloWorldProAppDelegate.h */;
+	};
+	49C7C94E1319B480006B58C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* HelloWorldProAppDelegate.h */;
+		name = "HelloWorldProAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 313;
+		vrLoc = 0;
+	};
+	49C7C94F1319B480006B58C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* HelloWorldProAppDelegate.h */;
+		name = "HelloWorldProAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 0;
+	};
+	49C7C9551319B480006B58C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* HelloWorldProAppDelegate.m */;
+		name = "HelloWorldProAppDelegate.m: 41";
+		rLen = 0;
+		rLoc = 953;
+		rType = 0;
+		vrLen = 993;
+		vrLoc = 243;
+	};
+	49C7C9581319B480006B58C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* HelloWorldProAppDelegate.h */;
+		name = "HelloWorldProAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 475;
+		rType = 0;
+		vrLen = 523;
+		vrLoc = 0;
+	};
+	8D1107260486CEB800E47090 /* HelloWorldPro */ = {
+		activeExec = 0;
+		executables = (
+			49C7C9151319A5B5006B58C8 /* HelloWorldPro */,
+		);
+	};
+}
