@@ -1,0 +1,212 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* FlashlightAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {564, 304}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 315}";
+		};
+	};
+	1D3623250D0F684500981E51 /* FlashlightAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2244, 1520}}";
+			sepNavSelRange = "{1039, 0}";
+			sepNavVisRange = "{0, 909}";
+			sepNavWindowFrame = "{{15, 62}, {750, 716}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Flashlight */ = {
+		activeExec = 0;
+		executables = (
+			499214A7131988F70099FEFF /* Flashlight */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 499214A7131988F70099FEFF /* Flashlight */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Flashlight */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Flashlight */,
+		);
+		codeSenseManager = 499214C0131989050099FEFF /* Code sense */;
+		executables = (
+			499214A7131988F70099FEFF /* Flashlight */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					229,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320440567;
+			PBXWorkspaceStateSaveDate = 320440567;
+		};
+		perUserProjectItems = {
+			4992151C13198E600099FEFF /* PBXTextBookmark */ = 4992151C13198E600099FEFF /* PBXTextBookmark */;
+			49921562131991FD0099FEFF /* PBXTextBookmark */ = 49921562131991FD0099FEFF /* PBXTextBookmark */;
+			49921593131995140099FEFF /* PBXTextBookmark */ = 49921593131995140099FEFF /* PBXTextBookmark */;
+			49921594131995140099FEFF /* PBXBookmark */ = 49921594131995140099FEFF /* PBXBookmark */;
+			49921595131995140099FEFF /* PBXTextBookmark */ = 49921595131995140099FEFF /* PBXTextBookmark */;
+			49921596131995140099FEFF /* PBXTextBookmark */ = 49921596131995140099FEFF /* PBXTextBookmark */;
+			49921597131995140099FEFF /* PBXTextBookmark */ = 49921597131995140099FEFF /* PBXTextBookmark */;
+		};
+		sourceControlManager = 499214BF131989050099FEFF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	499214A7131988F70099FEFF /* Flashlight */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Flashlight;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	499214BF131989050099FEFF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	499214C0131989050099FEFF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	499214C3131989960099FEFF /* Greeter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 464}}";
+			sepNavSelRange = "{531, 0}";
+			sepNavVisRange = "{159, 427}";
+			sepNavWindowFrame = "{{504, 62}, {750, 716}}";
+		};
+	};
+	499214C4131989960099FEFF /* Greeter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 784}}";
+			sepNavSelRange = "{648, 0}";
+			sepNavVisRange = "{123, 789}";
+			sepNavWindowFrame = "{{15, 62}, {750, 716}}";
+		};
+	};
+	4992151C13198E600099FEFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 499214C4131989960099FEFF /* Greeter.m */;
+		name = "Greeter.m: 16";
+		rLen = 0;
+		rLoc = 246;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 122;
+	};
+	49921562131991FD0099FEFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FlashlightAppDelegate.h */;
+		name = "FlashlightAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 0;
+	};
+	49921593131995140099FEFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashlightAppDelegate.m */;
+		name = "FlashlightAppDelegate.m: 9";
+		rLen = 0;
+		rLoc = 137;
+		rType = 0;
+		vrLen = 253;
+		vrLoc = 0;
+	};
+	49921594131995140099FEFF /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 499214C3131989960099FEFF /* Greeter.h */;
+	};
+	49921595131995140099FEFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 499214C3131989960099FEFF /* Greeter.h */;
+		name = "Greeter.h: 26";
+		rLen = 0;
+		rLoc = 531;
+		rType = 0;
+		vrLen = 427;
+		vrLoc = 159;
+	};
+	49921596131995140099FEFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashlightAppDelegate.m */;
+		name = "FlashlightAppDelegate.m: 30";
+		rLen = 0;
+		rLoc = 797;
+		rType = 0;
+		vrLen = 1257;
+		vrLoc = 192;
+	};
+	49921597131995140099FEFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashlightAppDelegate.m */;
+		name = "FlashlightAppDelegate.m: 42";
+		rLen = 0;
+		rLoc = 1039;
+		rType = 0;
+		vrLen = 909;
+		vrLoc = 0;
+	};
+}
