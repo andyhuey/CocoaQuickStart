@@ -13,6 +13,12 @@
 
 @synthesize window;
 
+-(void) setUpperCaseName: (Greeter *) greeter {
+	NSLog(@"The name was originally %@.", [greeter name]);
+	[greeter setName:[[greeter name] uppercaseString]];
+	NSLog(@"The name is now %@.", [greeter name]);
+}
+
 - (NSTextField *) labelWithText: (NSString *) labelText {
 	NSRect labelFrame = NSMakeRect(20, 20, 540, 50);
 	NSTextField *label = [[NSTextField alloc] initWithFrame:labelFrame];
@@ -34,6 +40,7 @@
 	NSLog(@"Greeter: %@", greeter);
 	NSLog(@"This occured in %@ at line %d in file %s.",
 		  NSStringFromSelector(_cmd), __LINE__, __FILE__);
+	[self setUpperCaseName: greeter];
 	NSTextField *label = [self labelWithText:[greeter greeting]];
 	[[self.window contentView] addSubview: label];
 }
