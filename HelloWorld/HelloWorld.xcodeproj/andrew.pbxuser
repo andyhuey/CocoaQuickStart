@@ -2,16 +2,17 @@
 {
 	256AC3D80F4B6AC300CF3369 /* HelloWorldAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {564, 288}}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 591}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{49, 260}";
+			sepNavVisRange = "{0, 309}";
+			sepNavWindowFrame = "{{15, 59}, {750, 719}}";
 		};
 	};
 	256AC3D90F4B6AC300CF3369 /* HelloWorldAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 784}}";
-			sepNavSelRange = "{1282, 0}";
-			sepNavVisRange = "{192, 1209}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 816}}";
+			sepNavSelRange = "{399, 0}";
+			sepNavVisRange = "{0, 976}";
 			sepNavWindowFrame = "{{17, 61}, {750, 716}}";
 		};
 	};
@@ -49,15 +50,15 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 320431435;
-			PBXWorkspaceStateSaveDate = 320431435;
+			PBXPerProjectTemplateStateSaveDate = 320433580;
+			PBXWorkspaceStateSaveDate = 320433580;
 		};
 		perUserProjectItems = {
 			496C4BBF13196C3A006874A4 /* PBXTextBookmark */ = 496C4BBF13196C3A006874A4 /* PBXTextBookmark */;
+			4993B371131973D100C78BE9 /* PBXTextBookmark */ = 4993B371131973D100C78BE9 /* PBXTextBookmark */;
 			49BD419E131958B100165CE0 /* PBXTextBookmark */ = 49BD419E131958B100165CE0 /* PBXTextBookmark */;
 			49BD41B113195B0300165CE0 /* PBXTextBookmark */ = 49BD41B113195B0300165CE0 /* PBXTextBookmark */;
 			49BD41B213195B0300165CE0 /* PBXTextBookmark */ = 49BD41B213195B0300165CE0 /* PBXTextBookmark */;
-			49BD41DF13195E2800165CE0 /* PBXTextBookmark */ = 49BD41DF13195E2800165CE0 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 499769221315F10600883E47 /* Source Control */;
 		userBuildSettings = {
@@ -65,18 +66,18 @@
 	};
 	49140DDC13174C0400E8210C /* Greeter.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 336}}";
-			sepNavSelRange = "{201, 0}";
-			sepNavVisRange = "{119, 168}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 512}}";
+			sepNavSelRange = "{251, 0}";
+			sepNavVisRange = "{119, 155}";
 			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
 		};
 	};
 	49140DDD13174C0400E8210C /* Greeter.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 752}}";
-			sepNavSelRange = "{529, 0}";
-			sepNavVisRange = "{123, 481}";
-			sepNavWindowFrame = "{{36, 193}, {750, 558}}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 608}}";
+			sepNavSelRange = "{436, 0}";
+			sepNavVisRange = "{0, 643}";
+			sepNavWindowFrame = "{{353, 59}, {750, 719}}";
 		};
 	};
 	496C4BBF13196C3A006874A4 /* PBXTextBookmark */ = {
@@ -84,9 +85,19 @@
 		fRef = 49140DDC13174C0400E8210C /* Greeter.h */;
 		name = "Greeter.h: 15";
 		rLen = 0;
-		rLoc = 201;
+		rLoc = 251;
 		rType = 0;
 		vrLen = 168;
+		vrLoc = 119;
+	};
+	4993B371131973D100C78BE9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49140DDC13174C0400E8210C /* Greeter.h */;
+		name = "Greeter.h: 18";
+		rLen = 0;
+		rLoc = 251;
+		rType = 0;
+		vrLen = 155;
 		vrLoc = 119;
 	};
 	499769011315F0D800883E47 /* HelloWorld */ = {
@@ -158,20 +169,10 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* HelloWorldAppDelegate.m */;
 		name = "HelloWorldAppDelegate.m: 38";
 		rLen = 0;
-		rLoc = 1401;
+		rLoc = 1394;
 		rType = 0;
 		vrLen = 264;
 		vrLoc = 46;
-	};
-	49BD41DF13195E2800165CE0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 49140DDC13174C0400E8210C /* Greeter.h */;
-		name = "Greeter.h: 15";
-		rLen = 0;
-		rLoc = 201;
-		rType = 0;
-		vrLen = 198;
-		vrLoc = 74;
 	};
 	8D1107260486CEB800E47090 /* HelloWorld */ = {
 		activeExec = 0;

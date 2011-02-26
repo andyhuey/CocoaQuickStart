@@ -10,23 +10,17 @@
 
 @implementation Greeter
 
-// getter and setter.
--(NSString *) name {
-	return name;
-}
--(void) setName:(NSString *) newName {
-	name = newName;
-}
+@synthesize name;
+@synthesize age, buddy, upperCase;
 
 -(NSString *) greeting {
-	return [[NSString alloc] initWithFormat:@"Hello, %@!", [self name]];
-	//return @"Hello, World!";
+	return [[NSString alloc] initWithFormat:@"Hello, %@!", self.name];
 }
 
 -(id) initWithName: (NSString *) newName {
 	if (self = [super init]) {
-		//name = newName;
-		[self setName: newName];
+		self.name = newName;
+		self.upperCase = YES;
 	}
 	return self;
 }	

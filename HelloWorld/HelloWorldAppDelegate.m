@@ -14,8 +14,8 @@
 @synthesize window;
 
 -(void) setUpperCaseName: (Greeter *) greeter {
-	NSLog(@"The name was originally %@.", [greeter name]);
-	[greeter setName:[[greeter name] uppercaseString]];
+	NSLog(@"The name was originally %@.", greeter.name);
+	greeter.name = [greeter.name uppercaseString];
 	NSLog(@"The name is now %@.", [greeter name]);
 }
 
