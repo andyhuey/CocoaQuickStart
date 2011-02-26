@@ -10,8 +10,9 @@
 
 
 @interface Greeter : NSObject {
-
+	NSString *name;
 }
 -(NSString *) greeting;
+-(id) initWithName: (NSString *) newName;
 
 @end

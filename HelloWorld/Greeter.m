@@ -8,11 +8,28 @@
 
 #import "Greeter.h"
 
-
 @implementation Greeter
 
 -(NSString *) greeting {
-	return @"Hello, World!";
+	return [[NSString alloc] initWithFormat:@"Hello, %@!", name];
+	//return @"Hello, World!";
+}
+
+-(id) initWithName: (NSString *) newName {
+	if (self = [super init]) {
+		name = newName;
+	}
+	return self;
+}	
+
+-(id) init {
+	return [self initWithName: @"World"];
+}
+
+
+-(NSString *) description {
+	return [[NSString alloc] initWithFormat:@"name: %@ \n created: %@",
+			name, [NSDate date]];
 }
 
 @end
