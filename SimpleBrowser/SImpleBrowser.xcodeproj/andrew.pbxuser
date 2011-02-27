@@ -4,6 +4,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 49F491E413103FD800688496 /* SImpleBrowser */;
 		activeTarget = 8D1107260486CEB800E47090 /* SImpleBrowser */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* SImpleBrowser */,
+		);
 		codeSenseManager = 49F491F113103FF700688496 /* Code sense */;
 		executables = (
 			49F491E413103FD800688496 /* SImpleBrowser */,
@@ -31,12 +34,86 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 320297568;
-			PBXWorkspaceStateSaveDate = 320297568;
+			PBXPerProjectTemplateStateSaveDate = 320517596;
+			PBXWorkspaceStateSaveDate = 320517596;
+		};
+		perUserProjectItems = {
+			49981BCF131AC350004C6728 /* PBXBookmark */ = 49981BCF131AC350004C6728 /* PBXBookmark */;
+			49981BE0131AC5F0004C6728 /* XCBuildMessageTextBookmark */ = 49981BE0131AC5F0004C6728 /* XCBuildMessageTextBookmark */;
+			49981BE6131AC60C004C6728 /* PBXTextBookmark */ = 49981BE6131AC60C004C6728 /* PBXTextBookmark */;
+			49981BF1131AC6C3004C6728 /* PBXTextBookmark */ = 49981BF1131AC6C3004C6728 /* PBXTextBookmark */;
+			49981BF2131AC6C3004C6728 /* PBXTextBookmark */ = 49981BF2131AC6C3004C6728 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 49F491F013103FF700688496 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 591}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 244}";
+			sepNavWindowFrame = "{{15, 58}, {750, 719}}";
+		};
+	};
+	49981B83131AB615004C6728 /* BrowserController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 591}}";
+			sepNavSelRange = "{490, 0}";
+			sepNavVisRange = "{0, 664}";
+			sepNavWindowFrame = "{{271, 59}, {750, 719}}";
+		};
+	};
+	49981B84131AB615004C6728 /* BrowserController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {540, 656}}";
+			sepNavSelRange = "{311, 0}";
+			sepNavVisRange = "{136, 343}";
+			sepNavWindowFrame = "{{15, 58}, {750, 719}}";
+		};
+	};
+	49981BCF131AC350004C6728 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 49981B83131AB615004C6728 /* BrowserController.h */;
+	};
+	49981BE0131AC5F0004C6728 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected ':' before ']' token";
+		fRef = 49981B84131AB615004C6728 /* BrowserController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 16;
+		rType = 1;
+	};
+	49981BE6131AC60C004C6728 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49981B83131AB615004C6728 /* BrowserController.h */;
+		name = "BrowserController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 268;
+		vrLoc = 0;
+	};
+	49981BF1131AC6C3004C6728 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49981B84131AB615004C6728 /* BrowserController.m */;
+		name = "BrowserController.m: 17";
+		rLen = 0;
+		rLoc = 311;
+		rType = 0;
+		vrLen = 376;
+		vrLoc = 135;
+	};
+	49981BF2131AC6C3004C6728 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49981B83131AB615004C6728 /* BrowserController.h */;
+		name = "BrowserController.h: 22";
+		rLen = 0;
+		rLoc = 490;
+		rType = 0;
+		vrLen = 664;
+		vrLoc = 0;
 	};
 	49F491E413103FD800688496 /* SImpleBrowser */ = {
 		isa = PBXExecutable;
