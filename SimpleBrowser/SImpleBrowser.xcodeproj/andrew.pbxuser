@@ -1,5 +1,12 @@
 // !$*UTF8*$!
 {
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 200}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 86}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 49F491E413103FD800688496 /* SImpleBrowser */;
@@ -34,15 +41,15 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 320517596;
-			PBXWorkspaceStateSaveDate = 320517596;
+			PBXPerProjectTemplateStateSaveDate = 320528163;
+			PBXWorkspaceStateSaveDate = 320528163;
 		};
 		perUserProjectItems = {
-			49981BCF131AC350004C6728 /* PBXBookmark */ = 49981BCF131AC350004C6728 /* PBXBookmark */;
-			49981BE0131AC5F0004C6728 /* XCBuildMessageTextBookmark */ = 49981BE0131AC5F0004C6728 /* XCBuildMessageTextBookmark */;
 			49981BE6131AC60C004C6728 /* PBXTextBookmark */ = 49981BE6131AC60C004C6728 /* PBXTextBookmark */;
-			49981BF1131AC6C3004C6728 /* PBXTextBookmark */ = 49981BF1131AC6C3004C6728 /* PBXTextBookmark */;
-			49981BF2131AC6C3004C6728 /* PBXTextBookmark */ = 49981BF2131AC6C3004C6728 /* PBXTextBookmark */;
+			49DEAEA3131AED9B0008E9A3 /* PBXTextBookmark */ = 49DEAEA3131AED9B0008E9A3 /* PBXTextBookmark */;
+			49DEAEA4131AED9B0008E9A3 /* PlistBookmark */ = 49DEAEA4131AED9B0008E9A3 /* PlistBookmark */;
+			49DEAEA5131AED9B0008E9A3 /* PBXBookmark */ = 49DEAEA5131AED9B0008E9A3 /* PBXBookmark */;
+			49DEAEAD131AEE440008E9A3 /* PBXTextBookmark */ = 49DEAEAD131AEE440008E9A3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 49F491F013103FF700688496 /* Source Control */;
 		userBuildSettings = {
@@ -59,31 +66,18 @@
 	49981B83131AB615004C6728 /* BrowserController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {691, 591}}";
-			sepNavSelRange = "{490, 0}";
-			sepNavVisRange = "{0, 664}";
+			sepNavSelRange = "{371, 0}";
+			sepNavVisRange = "{0, 760}";
 			sepNavWindowFrame = "{{271, 59}, {750, 719}}";
 		};
 	};
 	49981B84131AB615004C6728 /* BrowserController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {540, 656}}";
-			sepNavSelRange = "{311, 0}";
-			sepNavVisRange = "{136, 343}";
+			sepNavIntBoundsRect = "{{0, 0}, {692, 1008}}";
+			sepNavSelRange = "{1453, 0}";
+			sepNavVisRange = "{581, 881}";
 			sepNavWindowFrame = "{{15, 58}, {750, 719}}";
 		};
-	};
-	49981BCF131AC350004C6728 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 49981B83131AB615004C6728 /* BrowserController.h */;
-	};
-	49981BE0131AC5F0004C6728 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Expected ':' before ']' token";
-		fRef = 49981B84131AB615004C6728 /* BrowserController.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 16;
-		rType = 1;
 	};
 	49981BE6131AC60C004C6728 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -95,24 +89,40 @@
 		vrLen = 268;
 		vrLoc = 0;
 	};
-	49981BF1131AC6C3004C6728 /* PBXTextBookmark */ = {
+	49DEAEA3131AED9B0008E9A3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 49981B84131AB615004C6728 /* BrowserController.m */;
 		name = "BrowserController.m: 17";
 		rLen = 0;
-		rLoc = 311;
+		rLoc = 321;
 		rType = 0;
-		vrLen = 376;
-		vrLoc = 135;
+		vrLen = 326;
+		vrLoc = 166;
 	};
-	49981BF2131AC6C3004C6728 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 49981B83131AB615004C6728 /* BrowserController.h */;
-		name = "BrowserController.h: 22";
+	49DEAEA4131AED9B0008E9A3 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/andrew/src/PragProgCocoa/SImpleBrowser/Info.plist;
 		rLen = 0;
-		rLoc = 490;
+		rLoc = 9223372036854775807;
+	};
+	49DEAEA5131AED9B0008E9A3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings (English)";
+	};
+	49DEAEAD131AEE440008E9A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 664;
+		vrLen = 86;
 		vrLoc = 0;
 	};
 	49F491E413103FD800688496 /* SImpleBrowser */ = {

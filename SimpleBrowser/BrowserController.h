@@ -15,15 +15,17 @@
 	NSTextField *address;
 	NSButton *backButton;
 	NSButton *forwardButton;
+	NSProgressIndicator *progress;
 }
 
 @property(assign) IBOutlet WebView *myWebView;
 @property(assign) IBOutlet NSButton *backButton;
 @property(assign) IBOutlet NSButton *forwardButton;
 @property(assign) IBOutlet NSTextField *address;
+@property(assign) IBOutlet NSProgressIndicator *progress;
 
--(IBAction) loadPreviousPage: (id)sender;
--(IBAction) loadNextPage: (id)sender;
--(IBAction) loadURLFrom: (id)sender;
+//-(IBAction) loadPreviousPage: (id)sender;
+//-(IBAction) loadNextPage: (id)sender;
+//-(IBAction) loadURLFrom: (id)sender;
 
 @end
