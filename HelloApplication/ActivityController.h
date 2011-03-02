@@ -11,8 +11,10 @@
 
 @interface ActivityController : NSObject {
 	CurrentApp *currentApp;
+	NSTextField *activityDisplay;
 }
 
 @property CurrentApp *currentApp;
+@property IBOutlet NSTextField *activityDisplay;
 
 @end

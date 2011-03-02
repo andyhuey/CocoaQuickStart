@@ -11,7 +11,7 @@
 
 @implementation ActivityController
 
-@synthesize currentApp;
+@synthesize currentApp, activityDisplay;
 
 -(void) awakeFromNib {
 	self.currentApp = [[CurrentApp alloc] init];
