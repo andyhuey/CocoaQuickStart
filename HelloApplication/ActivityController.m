@@ -11,35 +11,21 @@
 
 @implementation ActivityController
 
-@synthesize currentApp, activityDisplay;
+@synthesize activityDisplay;
 
--(void) applicationDidLaunch: (NSNotification *) notification {
-	[self.activityDisplay setStringValue: @"Launched"];
-	NSLog(@"Launched!");
+-(void) applicationDidLaunch:(CurrentApp *)app {
+	[self.activityDisplay setStringValue:@"Launched!"];
+}
+	 
+-(void) applicationDidTerminate:(CurrentApp *)app {
+	[self.activityDisplay setStringValue:@"Terminated!"];
 }
 
--(void) applicationDidTerminate: (NSNotification *) notification {
-	[self.activityDisplay setStringValue: @"Terminated"];
-	NSLog(@"Terminated!");
-}
-
--(void) setupNotification: (NSString *)notification withSelector: (SEL) methodName {
-	[[NSNotificationCenter defaultCenter]
-	 addObserver: self
-	 selector: methodName
-	 name: notification
-	 object: nil];
-}
-
--(void) registerNotifications {
-	[self setupNotification: @"Launched"
-			   withSelector: @selector(applicationDidLaunch:)];
-	[self setupNotification: @"Terminated"
-			   withSelector: @selector(applicationDidTerminate:)];
-}
-
+/*
 -(void) awakeFromNib {
 	self.currentApp = [[CurrentApp alloc] init];
-	[self registerNotifications];
-}
+	self.currentApp.delegate = self;
+	//[self registerNotifications];
+}*/
+
 @end

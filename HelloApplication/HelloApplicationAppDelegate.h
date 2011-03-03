@@ -8,12 +8,15 @@
 
 #import <Cocoa/Cocoa.h>
 @class ActivityController;
+@class CurrentApp;
 
 @interface HelloApplicationAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
 	ActivityController *ac;
+	CurrentApp *currentApp;
 }
 
 @property (assign) IBOutlet NSWindow *window;
 @property IBOutlet ActivityController *ac;
+@property IBOutlet CurrentApp *currentApp;
 @end

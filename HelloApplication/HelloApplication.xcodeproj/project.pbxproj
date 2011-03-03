@@ -31,6 +31,7 @@
 		4918F2FA131C96DB00E2177D /* CurrentApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentApp.m; sourceTree = "<group>"; };
 		4918F2FC131C96EB00E2177D /* ActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityController.h; sourceTree = "<group>"; };
 		4918F2FD131C96EB00E2177D /* ActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityController.m; sourceTree = "<group>"; };
+		495CA3B4131F316000000C1C /* ActivityMonitorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityMonitorDelegate.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HelloApplication-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HelloApplication-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* HelloApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -56,6 +57,7 @@
 				4918F2FA131C96DB00E2177D /* CurrentApp.m */,
 				4918F2FC131C96EB00E2177D /* ActivityController.h */,
 				4918F2FD131C96EB00E2177D /* ActivityController.m */,
+				495CA3B4131F316000000C1C /* ActivityMonitorDelegate.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";

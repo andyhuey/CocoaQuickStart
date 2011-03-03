@@ -10,16 +10,29 @@
 
 @implementation CurrentApp
 
+@synthesize delegate;
+
 -(void) applicationDidLaunch: (NSNotification *) notification {
-	NSLog(@"Launched %@", notification.name);
+	//if ([self.delegate respondsToSelector:@selector(applicationDidLaunch:)]) {
+		//NSLog(@"delegate implements applicationDidLaunch:");
+		[self.delegate applicationDidLaunch: self];
+	//} else {
+	//	NSLog(@"we're on our own.");
+	//}
+	
+	/*NSLog(@"Launched %@", notification.name);
 	[[NSNotificationCenter defaultCenter]
-		postNotificationName: @"Launched" object: self];
+		postNotificationName: @"Launched" object: self];*/
 }
 
 -(void) applicationDidTerminate: (NSNotification *) notification {
-	NSLog(@"Terminated %@", notification.name);
+	//if ([self.delegate respondsToSelector:@selector(applicationDidTerminate:)]) {
+		[self.delegate applicationDidTerminate: self];
+	//}
+	
+	/*NSLog(@"Terminated %@", notification.name);
 	[[NSNotificationCenter defaultCenter]
-		postNotificationName: @"Terminated" object: self];
+		postNotificationName: @"Terminated" object: self];*/
 }
 
 -(void) setupNotification: (NSString *)notification withSelector: (SEL) methodName {

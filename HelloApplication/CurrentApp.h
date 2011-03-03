@@ -7,10 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+#import "ActivityMonitorDelegate.h";
 
 @interface CurrentApp : NSObject {
-
+	NSObject <ActivityMonitorDelegate> *delegate;
 }
+
+@property IBOutlet NSObject <ActivityMonitorDelegate> *delegate;
 
 @end
