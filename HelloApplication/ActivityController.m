@@ -11,16 +11,21 @@
 
 @implementation ActivityController
 
-@synthesize activityDisplay;
+@synthesize activityDisplay, imageView;
 
--(void) applicationDidLaunch:(CurrentApp *)app {
+-(void) displayAction: (NSString *) action
+	   forApplication:(NSRunningApplication *) app {
 	[self.activityDisplay setStringValue:
-	 [NSString stringWithFormat: @"Launched: %@", app.name]];
+	 [NSString stringWithFormat: @"%@: %@", action, app.localizedName]];
+	[self.imageView setImage:app.icon];
+}	
+
+-(void) applicationDidLaunch:(NSRunningApplication *)app {
+	[self displayAction:@"Launched" forApplication: app];
 }
 	 
--(void) applicationDidTerminate:(CurrentApp *)app {
-	[self.activityDisplay setStringValue:
-	  [NSString stringWithFormat: @"Terminated: %@", app.name]];
+-(void) applicationDidTerminate:(NSRunningApplication *)app {
+	[self displayAction:@"Terminated" forApplication: app];
 }
 
 /*

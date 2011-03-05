@@ -14,9 +14,10 @@
 @interface ActivityController : NSObject <ActivityMonitorDelegate> {
 	//CurrentApp *currentApp;
 	NSTextField *activityDisplay;
+	NSImageView *imageView;
 }
 
 //@property CurrentApp *currentApp;
 @property IBOutlet NSTextField *activityDisplay;
-
+@property IBOutlet NSImageView *imageView;
 @end

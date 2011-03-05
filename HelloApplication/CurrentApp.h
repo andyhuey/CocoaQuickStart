@@ -11,10 +11,14 @@
 
 @interface CurrentApp : NSObject {
 	NSObject <ActivityMonitorDelegate> *delegate;
-	NSString *name;
+	//NSString *name;
+	NSRunningApplication *app;
+	NSDictionary *delegateMethods;
+	NSMutableDictionary *runningApps;
 }
 
 @property IBOutlet NSObject <ActivityMonitorDelegate> *delegate;
-@property(copy) NSString *name;
+//@property(copy) NSString *name;
+@property NSRunningApplication *app;
 
 @end

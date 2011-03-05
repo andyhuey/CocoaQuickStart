@@ -13,7 +13,7 @@
 @protocol ActivityMonitorDelegate
 
 //@optional
--(void) applicationDidLaunch: (CurrentApp *) app;
--(void) applicationDidTerminate: (CurrentApp *) app;
+-(void) applicationDidLaunch: (NSRunningApplication *) app;
+-(void) applicationDidTerminate: (NSRunningApplication *) app;
 
 @end
