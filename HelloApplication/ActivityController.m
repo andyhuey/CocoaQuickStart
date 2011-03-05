@@ -14,11 +14,13 @@
 @synthesize activityDisplay;
 
 -(void) applicationDidLaunch:(CurrentApp *)app {
-	[self.activityDisplay setStringValue:@"Launched!"];
+	[self.activityDisplay setStringValue:
+	 [NSString stringWithFormat: @"Launched: %@", app.name]];
 }
 	 
 -(void) applicationDidTerminate:(CurrentApp *)app {
-	[self.activityDisplay setStringValue:@"Terminated!"];
+	[self.activityDisplay setStringValue:
+	  [NSString stringWithFormat: @"Terminated: %@", app.name]];
 }
 
 /*
