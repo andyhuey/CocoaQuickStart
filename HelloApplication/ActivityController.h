@@ -11,7 +11,7 @@
 
 //@class CurrentApp;
 
-@interface ActivityController : NSObject <ActivityMonitorDelegate> {
+@interface ActivityController : NSViewController <ActivityMonitorDelegate> {
 	//CurrentApp *currentApp;
 	NSTextField *activityDisplay;
 	NSImageView *imageView;
