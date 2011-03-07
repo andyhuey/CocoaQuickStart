@@ -8,14 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 @class CurrentApp;
-@class ActivityController;
+@class IconViewController;
 
 @interface MyWindowController : NSWindowController {
 	CurrentApp *currentApp;
-	ActivityController *ac;
+	IconViewController *ac;
 }
 
 @property CurrentApp *currentApp;
-@property ActivityController *ac;
+@property IconViewController *ac;
 
 @end

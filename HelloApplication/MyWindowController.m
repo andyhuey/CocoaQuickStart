@@ -7,7 +7,7 @@
 //
 
 #import "MyWindowController.h"
-#import "ActivityController.h"
+#import "IconViewController.h"
 #import "CurrentApp.h"
 
 @implementation MyWindowController
@@ -15,8 +15,8 @@
 @synthesize ac, currentApp;
 
 -(void) setupView {
-	self.ac = [[ActivityController alloc]
-			   initWithNibName:@"ActivityView" bundle:nil];
+	self.ac = [[IconViewController alloc]
+			   initWithNibName:@"IconView" bundle:nil];
 	self.currentApp = [[CurrentApp alloc] init];
 	self.currentApp.delegate = self.ac;
 	

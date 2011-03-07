@@ -11,6 +11,9 @@
 		256AC3DA0F4B6AC300CF3369 /* HelloApplicationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* HelloApplicationAppDelegate.m */; };
 		4918F2FB131C96DB00E2177D /* CurrentApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918F2FA131C96DB00E2177D /* CurrentApp.m */; };
 		4918F2FE131C96EB00E2177D /* ActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918F2FD131C96EB00E2177D /* ActivityController.m */; };
+		49A3295E13247464006A574B /* IconView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49A3295D13247464006A574B /* IconView.xib */; };
+		49A3296113247481006A574B /* IconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A3296013247481006A574B /* IconViewController.m */; };
+		49A3296713247556006A574B /* IconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A3296613247556006A574B /* IconView.m */; };
 		49F4206113243411005EC97D /* ActivityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F4206013243411005EC97D /* ActivityView.xib */; };
 		49F420761324374E005EC97D /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F420751324374E005EC97D /* MyWindowController.m */; };
 		49F420781324376D005EC97D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F420771324376D005EC97D /* MainWindow.xib */; };
@@ -35,6 +38,11 @@
 		4918F2FC131C96EB00E2177D /* ActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityController.h; sourceTree = "<group>"; };
 		4918F2FD131C96EB00E2177D /* ActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityController.m; sourceTree = "<group>"; };
 		495CA3B4131F316000000C1C /* ActivityMonitorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityMonitorDelegate.h; sourceTree = "<group>"; };
+		49A3295D13247464006A574B /* IconView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IconView.xib; sourceTree = "<group>"; };
+		49A3295F13247481006A574B /* IconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconViewController.h; sourceTree = "<group>"; };
+		49A3296013247481006A574B /* IconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconViewController.m; sourceTree = "<group>"; };
+		49A3296513247556006A574B /* IconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconView.h; sourceTree = "<group>"; };
+		49A3296613247556006A574B /* IconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconView.m; sourceTree = "<group>"; };
 		49F4206013243411005EC97D /* ActivityView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityView.xib; sourceTree = "<group>"; };
 		49F420741324374E005EC97D /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
 		49F420751324374E005EC97D /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
@@ -67,6 +75,10 @@
 				495CA3B4131F316000000C1C /* ActivityMonitorDelegate.h */,
 				49F420741324374E005EC97D /* MyWindowController.h */,
 				49F420751324374E005EC97D /* MyWindowController.m */,
+				49A3295F13247481006A574B /* IconViewController.h */,
+				49A3296013247481006A574B /* IconViewController.m */,
+				49A3296513247556006A574B /* IconView.h */,
+				49A3296613247556006A574B /* IconView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
 				49F4206013243411005EC97D /* ActivityView.xib */,
 				49F420771324376D005EC97D /* MainWindow.xib */,
+				49A3295D13247464006A574B /* IconView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -193,6 +206,7 @@
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				49F4206113243411005EC97D /* ActivityView.xib in Resources */,
 				49F420781324376D005EC97D /* MainWindow.xib in Resources */,
+				49A3295E13247464006A574B /* IconView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +222,8 @@
 				4918F2FB131C96DB00E2177D /* CurrentApp.m in Sources */,
 				4918F2FE131C96EB00E2177D /* ActivityController.m in Sources */,
 				49F420761324374E005EC97D /* MyWindowController.m in Sources */,
+				49A3296113247481006A574B /* IconViewController.m in Sources */,
+				49A3296713247556006A574B /* IconView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
