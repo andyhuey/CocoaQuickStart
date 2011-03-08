@@ -7,15 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "ActivityMonitorDelegate.h"
+
 @class CurrentApp;
-@class IconViewController;
 
 @interface MyWindowController : NSWindowController {
 	CurrentApp *currentApp;
-	IconViewController *ac;
+	NSViewController <ActivityMonitorDelegate> *ac;
 }
 
 @property CurrentApp *currentApp;
-@property IconViewController *ac;
+@property NSViewController <ActivityMonitorDelegate> *ac;
 
 @end

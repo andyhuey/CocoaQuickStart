@@ -11,28 +11,31 @@
 
 @implementation ActivityController
 
-@synthesize activityDisplay, imageView;
-
--(void) displayAction: (NSString *) action
-	   forApplication:(NSRunningApplication *) app {
-	[self.activityDisplay setStringValue:
-	 [NSString stringWithFormat: @"%@: %@", action, app.localizedName]];
-	[self.imageView setImage:app.icon];
-}	
+@synthesize runningApps;
 
 -(void) applicationDidLaunch:(NSRunningApplication *)app {
-	[self displayAction:@"Launched" forApplication: app];
 }
 	 
 -(void) applicationDidTerminate:(NSRunningApplication *)app {
-	[self displayAction:@"Terminated" forApplication: app];
 }
 
-/*
--(void) awakeFromNib {
-	self.currentApp = [[CurrentApp alloc] init];
-	self.currentApp.delegate = self;
-	//[self registerNotifications];
-}*/
+- (NSInteger)numberOfRowsInTableView:(NSTableView *)aTableView {
+	return [runningApps count];
+}
+
+- (id)			tableView:(NSTableView *)aTableView 
+objectValueForTableColumn:(NSTableColumn *)aTableColumn 
+					  row:(NSInteger)rowIndex {
+	return [[runningApps objectAtIndex: rowIndex] localizedName];
+}
+
+-(id)initWithNibName:(NSString *)nibName bundle:(NSBundle *)nibBundle {
+	if (self = [super initWithNibName:nibName bundle:nibBundle]) {
+		self.runningApps = [NSMutableArray arrayWithCapacity:20];
+		[self.runningApps 
+		 addObjectsFromArray:[[NSWorkspace sharedWorkspace] runningApplications]];
+	}
+	return self;
+}
 
 @end

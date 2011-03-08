@@ -9,15 +9,11 @@
 #import <Cocoa/Cocoa.h>
 #import "ActivityMonitorDelegate.h"
 
-//@class CurrentApp;
-
-@interface ActivityController : NSViewController <ActivityMonitorDelegate> {
-	//CurrentApp *currentApp;
-	NSTextField *activityDisplay;
-	NSImageView *imageView;
+@interface ActivityController : NSViewController 
+	<ActivityMonitorDelegate, NSTableViewDelegate, NSTableViewDataSource> {
+	NSMutableArray *runningApps;
 }
 
-//@property CurrentApp *currentApp;
-@property IBOutlet NSTextField *activityDisplay;
-@property IBOutlet NSImageView *imageView;
+@property(retain) NSMutableArray *runningApps;
+
 @end
