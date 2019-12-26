@@ -1,0 +1,10 @@
+syntax: glob
+.DS_Store
+HelloWorld/build
+SimpleBrowser/build
+SimpleBrowser2/build
+Flashlight/build
+HelloWorldPro/build
+WindowDressing/build
+MobileBrowser/build
+HelloApplication/build
